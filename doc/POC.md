@@ -116,6 +116,8 @@ argocd account list
 ![Installation Demo](/.data/poc1.gif)
 #### Team Access Demo
 ![Team Access Demo](/.data/poc2.gif)
+#### ArgoCD UI Demo
+![ArgoCD UI Demo](/.data/argocd-ui.gif)
 
 ## 8. Troubleshooting
 
