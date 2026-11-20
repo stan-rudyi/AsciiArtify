@@ -111,12 +111,13 @@ argocd account list
 
 > Replace `dev1`/`dev2` with real names. Do not commit passwords to Git.
 
-## 8. Demo
-
+## 7. Demo
+#### Installation Demo
 ![Installation Demo](/.data/poc1.gif)
+#### eam Access Demo
 ![Team Access Demo](/.data/poc2.gif)
 
-## 9. Troubleshooting
+## 8. Troubleshooting
 
 | Symptom | Likely cause / fix |
 |---|---|
@@ -127,13 +128,13 @@ argocd account list
 | CRD "too long" error on install | Use `--server-side` as shown in section 4 |
 | Wrong cluster | `kubectl config current-context`, expected `k3d-asciiartify` |
 
-## 10. Cleanup
+## 9. Cleanup
 
 ```bash
 k3d cluster delete asciiartify
 ```
 
-## 11. Conclusions and next steps
+## 10. Conclusions and next steps
 
 - ArgoCD runs on k3d with minimal resources and starts quickly.
 - The UI is available to the team through Ingress; accounts and roles are configured.
