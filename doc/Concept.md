@@ -77,7 +77,7 @@ Below is the demonstration of setting up a local multi-node cluster using **k3d*
 
 ### Terminal Recording Preview
 
-![k3d AsciiArtify Demo](.data/demo.gif)
+![k3d AsciiArtify Demo](/.data/demo.gif)
 
 ### Step-by-Step Execution Log
 
